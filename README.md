@@ -1,5 +1,6 @@
 # Chartboost Coding Challenge: Dinosaur Database
 ## Demo
+[http://spoka.github.io/chartboost/dinosaurs/](http://spoka.github.io/chartboost/dinosaurs/)
 
 ## Task
 Create a simple web app for searching the Chartboost Dinosaur Database for dinosaurs filtered by geographical time period.
