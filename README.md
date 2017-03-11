@@ -1,6 +1,6 @@
 # Chartboost Coding Challenge: Dinosaur Database
 ## Demo
-[http://spoka.github.io/chartboost/dinosaurs/](http://spoka.github.io/chartboost/dinosaurs/)
+[http://yarunluon.github.io/chartboost/dinosaurs/](http://yarunluon.github.io/chartboost/dinosaurs/)
 
 ## Task
 Create a simple web app for searching the Chartboost Dinosaur Database for dinosaurs filtered by geographical time period.
@@ -18,11 +18,11 @@ font-family: proxima-nova, 'Proxima Nova', Helvetica, Arial, sans-serif;
 I didn't use the same width as the mockup (245px) instead relying on Bootstrap's grid system to set the navigation width.
 
 #### Select Box
-Styling select boxes is difficult. One option was to recreate the behavior using either `<div>` or a combination of `<ul>`, `<ol>` elements. Instead, to save time, I decided to use Bootstrap's default styling of `<select>`. Another option was to use Bootstrap's dropdown menus, but this requires rewiring the dropdown behavior to match the `<select>` behavior. 
+Styling select boxes is difficult. One option was to recreate the behavior using either `<div>` or a combination of `<ul>`, `<ol>` elements. Instead, to save time, I decided to use Bootstrap's default styling of `<select>`. Another option was to use Bootstrap's dropdown menus, but this requires rewiring the dropdown behavior to match the `<select>` behavior.
 
 ## Durability
 #### Backbone/Marionette
-Backbone/Marionette was used as the MVC framework to keep the presentation layer separate from the data layer. 
+Backbone/Marionette was used as the MVC framework to keep the presentation layer separate from the data layer.
 
 #### Sass
 Styles were written using sass to make the css more DRY.
@@ -34,7 +34,7 @@ Many small files let multiple people work on the code base at the same time with
 Instructions specifically state:
 > The minimum requirement is a single, static `index.html` that we can drag into a browser window (Chrome).
 
-With this requirement, templates are stored in `index.html` and `period` json are hardcoded into the models to prevent XSS violations. Otherwise, templates would be in separate html files for better maintainability and json would be loaded from disk to better mimic a server call. 
+With this requirement, templates are stored in `index.html` and `period` json are hardcoded into the models to prevent XSS violations. Otherwise, templates would be in separate html files for better maintainability and json would be loaded from disk to better mimic a server call.
 
 ## Performance
 I used best practices whenever possible. I am happy to hear any that I missed!
@@ -43,11 +43,11 @@ I used best practices whenever possible. I am happy to hear any that I missed!
 To further improve performance, we could minify and concatenate the css and js files.
 
 ## Comprehension
-Uses MVC design pattern for quicker comprehension. Source code is marked up with JSDoc annotation. 
+Uses MVC design pattern for quicker comprehension. Source code is marked up with JSDoc annotation.
 
 ## Delight
 * Website is responsive.
-* If given more time, animations would be added to ease the transitions between periods. 
+* If given more time, animations would be added to ease the transitions between periods.
 * Additional error message was added to account for non-404 errors.
 
 ## Installation
